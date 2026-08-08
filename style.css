@@ -11,19 +11,22 @@ body{
     line-height:1.6;
 }
 
-header{
-    text-align:center;
-    padding:90px 20px;
-    background:#3b1728;
-    color:white;
+header {
+    position: relative;
+    text-align: center;
+    padding: 90px 20px;
+    background: #3b1728;
+    color: white;
 }
 
-.logo{
-    width:180px;
-    max-width:70%;
-    height:auto;
-    display:block;
-    margin:0 auto 20px;
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 110px;
+    height: auto;
+    display: block;
+    margin: 0;
 }
 
 header p{
