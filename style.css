@@ -175,3 +175,7 @@ footer{
 html {
     scroll-behavior: smooth;
     }
+
+#contact a[href*="wa.me"] {
+    margin-top: 20px;
+        }
