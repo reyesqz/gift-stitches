@@ -51,6 +51,8 @@ header {
     height: auto;
     display: block;
     margin: 0;
+    mix-blend-mode: screen;
+background: transparent;
 }
 
 header p{
