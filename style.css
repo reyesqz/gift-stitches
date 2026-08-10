@@ -11,24 +11,28 @@ body{
     line-height:1.6;
 }
 
-/* Navigation */
+/* Mobile-friendly navigation */
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 8px;
     background: #3b1728;
-    padding: 15px 10px;
+    padding: 10px 8px;
     position: sticky;
     top: 0;
     z-index: 1000;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 8px 12px;
+    font-size: 14px;
+    padding: 9px 14px;
     border-radius: 20px;
+    flex-shrink: 0;
 }
 
 .navbar a:hover {
