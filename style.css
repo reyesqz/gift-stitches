@@ -170,4 +170,8 @@ footer{
     .gallery-item img {
         height: 300px;
     }
+    
 }
+html {
+    scroll-behavior: smooth;
+    }
